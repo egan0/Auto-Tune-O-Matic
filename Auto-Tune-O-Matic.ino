@@ -179,7 +179,6 @@ ISR(ADC_vect) {       // When new ADC value ready.
 // ---- new code ----
 
 //variables for filtering frequency
-movingAvg freq1(10); 
 Ewma adcFilter1(0.08);   // Less smoothing - faster to detect changes, but more prone to noise
 //Ewma adcFilter2(0.01);  // More smoothing - less prone to noise, but slower to detect changes
 int oldFrequency = 0;   // used to remember the previous frequency used
