@@ -7,7 +7,7 @@ Auto tuning code for the Look Mum No Computer - 1222 Tuner VCO project.
 
 Have a look at LOOKMUMNOCOMPUTER's video's on building the 1112 performance oscillators here https://www.lookmumnocomputer.com/projects#/1222-performance-vco
 
-This code is an adapted version of the code published by Jo Bouten (https://github.com/josbouten/Tune-O-Matic) and based on code published by by Amanda Ghassaei's Instructables and Sam's LookMumNoComputer. 
+This code is an adapted version of the amazing code written and published by Jo Bouten (https://github.com/josbouten/Tune-O-Matic), based on code published by by Amanda Ghassaei's Instructables and Sam's LookMumNoComputer. 
 
 The code is designed to be used with physical modifications to the original design of the 1222 Tuner VCO project.  Please do not make these changes unless you know what you are doing and do so at your own risk.  
 
