@@ -5,7 +5,7 @@
 String name[12]={"C","C#","D","D#","E","F","F#","G","G#","A","A#","B"};
 
 //sets the window of precision of the tuning. default is 0.4%. smaller % = more accurate but harder to tune and can be jumpy if there are frequency fluctuations.
-float margin = 0.4/100; //margin of accuracy 
+float margin = 0.4/100; //margin of precision
 
 //set pins used for 9 segment display and leds
 int ledPins[11] = {2,3,4,5,9,8,7,6,18,19,17};
