@@ -2,9 +2,18 @@
 
 Have a look at LOOKMUMNOCOMPUTER's video on building the 1112 performance oscillators here https://www.lookmumnocomputer.com/projects#/1222-performance-vco.
 
-# Modified Arduino Code - '1222_VCO.ino'
+-----------------------------------------------------------------------------------
+
+# Modified Arduino Code - '1222_VCO_V2.ino' - Version 2
+
+-- UPDATE Version 2 --
+
+Verison 2 does nothing different than the first version, but it eliminates the need to loop through each note for comaparing and finding the note being sent to the Arduino.  The new code directly calculates the note being played.  No real improvements, but less code to look at.
 
 -----------------------------------------------------------------------------------
+
+# Modified Arduino Code - '1222_VCO.ino' - Version 1
+
 -- UPDATE --
 
 The original code was increasing the frequency by multiplying it by 10, but this caused problems with matching the frequency to the note as each note is not a multiplication of 1 (semitone multiplied by the 12th root of 2, which is about 1.059463094359).  The frequency sampled is now shifted by 24 semitones to increase it to a value that is easier to work with and retain the original note.
