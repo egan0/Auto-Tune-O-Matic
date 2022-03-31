@@ -8,7 +8,7 @@ Have a look at LOOKMUMNOCOMPUTER's video on building the 1112 performance oscill
 
 -- UPDATE Version 2 --
 
-Verison 2 does nothing different than the first version, but it eliminates the need to loop through each note for comaparing and finding the note being sent to the Arduino.  The new code directly calculates the note being played.  No real improvements, but less code to look at.
+Verison 2 does nothing different than the first version, but it eliminates the need to loop through each note for comparing and finding the note being sent to the Arduino.  The new code calculates the note being played.  No real improvements, but less code to look at.
 
 -----------------------------------------------------------------------------------
 
@@ -24,13 +24,13 @@ The code used for sampling the frequency was great but could be simplified as th
 
 The '1222_VCO.ino' code is a modified version to use frequency-to-note conversion using equations rather than tables.  The equations allow for more accurate frequencies when calibrating the VCO using an external tuner. 
 
-This code is an adapted version of the code written and published by Jo Bouten (https://github.com/josbouten/Tune-O-Matic), based on code published by Amanda Ghassaei's Instructables and Sam's LookMumNoComputer. 
+This code is an adapted version of the code written and published by Jos Bouten (https://github.com/josbouten/Tune-O-Matic), based on code published by Amanda Ghassaei's Instructables and Sam's LookMumNoComputer. 
 
 # Auto Tuning Code - 'Auto-Tune-O-Matic.ino' 
 
 ** This is just for proof of concept.  The auto tuning works fine when using the VCO as a standalone oscillator with only the onboard tuning, but not with any CV input. ** 
 
-This code is an adapted version of the code written and published by Jo Bouten (https://github.com/josbouten/Tune-O-Matic), based on code published by Amanda Ghassaei's Instructables and Sam's LookMumNoComputer. 
+This code is an adapted version of the code written and published by Jos Bouten (https://github.com/josbouten/Tune-O-Matic), based on code published by Amanda Ghassaei's Instructables and Sam's LookMumNoComputer. 
 
 The auto tune code is designed to be used with physical modifications to the original design of the 1222 Tuner VCO project.  Please do not make these changes unless you know what you are doing and do so at your own risk.  
 
